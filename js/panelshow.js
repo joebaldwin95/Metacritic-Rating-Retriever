@@ -1,0 +1,1 @@
+document.getElementById("resultpanel").className = "panel panel-default animated fadeInUp";
