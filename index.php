@@ -118,7 +118,7 @@ $_SESSION['gameplatform'] = $_POST["platformlist"];
 $_SESSION['response'] = Unirest::post(
   "https://byroredux-metacritic.p.mashape.com/search/game",
   array(
-    "X-Mashape-Authorization" => "ghNSVBqVlPIxRwIa8yGghy7iYe9r89OE"
+    "X-Mashape-Authorization" => ""
   ),
   array(
     "title" => $_SESSION['gametitle'],
